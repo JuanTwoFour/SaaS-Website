@@ -9,13 +9,13 @@
 }
 
 .navbar.sticky {
-  background: #666;
+  background: #ffffff;
   box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
 }
 
 .navbar.sticky .navbar-toggler span,
 .navbar.sticky .navbar-brand {
-  color: #666;
+  color: #000000;
 }
 
 .navbar-toggler {
@@ -29,7 +29,7 @@
 }
 
 .navbar-toggler span {
-  color: #666;
+  color: #000000;
   font-size: 20px;
   cursor: pointer;
   pointer-events: none;
@@ -47,6 +47,7 @@
 .navbar .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-brand {
@@ -55,17 +56,18 @@
   font-weight: 700;
   width: 100%;
   transition: ease-in-out 0.3s;
-  color: #666;
+  color: rgb(36, 118, 255);
 }
 
 .nav-link a {
-  color: #666;
+  color: #000000;
   font-size: 0.8125rem;
   font-weight: 600;
   font-family: "Hind", sans-serif;
   text-transform: uppercase;
   margin-right: 40px;
   line-height: 20px;
+  text-wrap: nowrap;
 }
 
 .container {
@@ -77,6 +79,7 @@
 }
 
 .btn {
-  background: rgba(36, 118, 255, 1);
+  background: rgb(36, 118, 255);
   width: 100%;
+  border-radius: 12px;
 }
