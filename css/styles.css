@@ -79,7 +79,11 @@
 }
 
 .btn {
+  border: none;
   background: rgb(10, 95, 241);
-  width: 4.94rem;
-  border-radius: 12px;
+  width: 5.65rem;
+  height: 3.2rem;
+  border-radius: 30px;
+  margin-right: 3px;
+  text-align: center;
 }
