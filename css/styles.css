@@ -60,9 +60,19 @@
 }
 
 .nav-link a {
-  color: #000000;
+  color: rgba(103, 119, 136, 1);
   font-size: 0.8125rem;
   font-weight: 600;
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+  margin-right: 40px;
+  line-height: 20px;
+  text-wrap: nowrap;
+}
+.nav-link a:hover {
+  color: rgba(36, 118, 255, 1);
+  font-size: 0.8125rem;
+  font-weight: 800;
   font-family: "Hind", sans-serif;
   text-transform: uppercase;
   margin-right: 40px;
@@ -79,11 +89,13 @@
 }
 
 .btn {
+  
   border: none;
-  background: rgb(10, 95, 241);
-  width: 5.65rem;
-  height: 3.2rem;
+  background: rgba(36, 118, 255, 1);
+  width: 102px;
+  height: 45px;
   border-radius: 30px;
-  margin-right: 3px;
-  text-align: center;
+  padding: 12px 25px;
+  color: white;
+  font-weight: 700;
 }
