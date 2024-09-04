@@ -106,6 +106,7 @@
   align-self: center;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-top: -60px;
 }
 .hero-left h1 {
   font-size: 40px;
@@ -139,6 +140,7 @@
   position: relative;
   width: 477px;
   height: 406px;
+  margin-top: 80px;
 }
 .icon {
   background: #ffffff;
