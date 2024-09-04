@@ -72,6 +72,19 @@ a {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .15);
 }
 
+.item-content span {
+  width: 60px;
+  height: 23px;
+  padding: 4px 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  background: #01C9A7;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
 .sketch{
   display: flex;
+  align-items: center;
 }
