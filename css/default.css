@@ -42,3 +42,18 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
+.benefits h1{
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.benefits p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(103, 119, 136, 1);
+}
+.benefits>div {
+  margin-top: 100px;
+  text-align: center;
+}
