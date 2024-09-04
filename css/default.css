@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+/* Top section/Header */
 
 .logo {
   width: 154.9px;
@@ -43,17 +44,34 @@ a {
   flex-direction: column;
 }
 
+/* Benefits Section */
+
 .benefits h1{
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 10px;
 }
+
 .benefits p {
   font-size: 16px;
   font-weight: 500;
   color: rgba(103, 119, 136, 1);
 }
-.benefits>div {
+
+.benefits {
   margin-top: 100px;
   text-align: center;
+}
+
+.benefits-item { 
+  display: flex;
+  width: 218.5px;
+  height: 300px;
+  border: 1px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .15);
+}
+
+.sketch{
+  display: flex;
 }

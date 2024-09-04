@@ -1,3 +1,5 @@
+/* Navbar */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -72,6 +74,8 @@
   color: rgba(36, 118, 255, 1);
 }
 
+/* constants */
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -93,6 +97,8 @@
   text-wrap: nowrap;
 }
 
+/* Header Section */
+
 .hero-wrapper {
   display: flex;
   flex-direction: row;
@@ -100,6 +106,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* Top Left Header Section */
 
 .hero-left {
   display: flex;
@@ -121,6 +129,8 @@
   color: rgba(103, 119, 136, 1);
 }
 
+/* Lower Left Header Section */
+
 .actions {
   margin-top: 24px;
 }
@@ -136,12 +146,15 @@
   font-weight: 700;
 }
 
+/* Right Header Section */
+
 .hero-right {
   position: relative;
   width: 477px;
   height: 406px;
   margin-top: 80px;
 }
+/* icon bubbles */
 .icon {
   background: #ffffff;
   border-radius: 50%;
@@ -172,3 +185,53 @@
 .icon5 { top: 172px; left: 262px; }
 .icon6 { top: 290px; left: 155px; }
 .icon7 { top: 310px; left: 364px; }
+
+/* Benefits Section */
+.benefits .container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+.item-content {
+  width: 178.5px;
+  height: 270px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.item-content {
+  width: 178.5px;
+  height: 270px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}.item-content img {
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
+}
+.item-content h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1)
+}
+.item-content p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(103, 119, 136, 1);
+  line-height: 24px;
+  text-align: left;
+  text-wrap: balance;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.item-content a{
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(36, 118, 255, 1);
+}
+.sketch{
+display: flex;
+}
