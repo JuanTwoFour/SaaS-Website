@@ -35,7 +35,7 @@
   pointer-events: none;
 }
 
-[aria-controls="navbarDowndrop"] {
+[aria-controls="navbarDropdown"] {
   display: none;
 }
 
@@ -64,20 +64,12 @@
   font-size: 0.8125rem;
   font-weight: 600;
   font-family: "Hind", sans-serif;
-  text-transform: uppercase;
   margin-right: 40px;
   line-height: 20px;
   text-wrap: nowrap;
 }
 .nav-link a:hover {
   color: rgba(36, 118, 255, 1);
-  font-size: 0.8125rem;
-  font-weight: 800;
-  font-family: "Hind", sans-serif;
-  text-transform: uppercase;
-  margin-right: 40px;
-  line-height: 20px;
-  text-wrap: nowrap;
 }
 
 .container {
@@ -89,13 +81,92 @@
 }
 
 .btn {
-  
   border: none;
   background: rgba(36, 118, 255, 1);
   width: 102px;
   height: 45px;
   border-radius: 30px;
-  padding: 12px 25px;
+  padding: 15px 25px;
   color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-wrap: nowrap;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.hero-left h1 {
+  font-size: 40px;
+  line-height: 48.41px;
+  font-weight: 500;
+  width: 334px;
+  padding-bottom: 11px;
+}
+.hero-left p {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(103, 119, 136, 1);
+}
+
+.actions {
+  margin-top: 24px;
+}
+.actions span {
+  padding-right: 8px;
+}
+.actions .btn {
+  margin-right: 15px;
+}
+.actions .lm {
+  font-size: 14px;
+  color: rgba(36, 118, 255, 1);
   font-weight: 700;
 }
+
+.hero-right {
+  position: relative;
+  width: 477px;
+  height: 406px;
+}
+.icon {
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.icon img {
+  max-width: 40px;
+  max-height: 40px;
+  margin: 10px;
+}
+.icon60 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+.icon80 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+.icon1 { top: 10px; left: 64px; }
+.icon2 { top: 10px; left: 175px; }
+.icon3 { top: 10px; left: 380px; }
+.icon4 { top: 172px; left: 44px; }
+.icon5 { top: 172px; left: 262px; }
+.icon6 { top: 290px; left: 155px; }
+.icon7 { top: 310px; left: 364px; }

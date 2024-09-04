@@ -2,6 +2,9 @@
 ::after,
 ::before {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 ul {
@@ -18,4 +21,24 @@ a {
 .logo {
   width: 154.9px;
   height: 46.1px;
+}
+
+.top-section {
+  background-image: url(/saas-project-assets/backgrounds/background-top.svg);
+  padding: 100px;
+  height: 532px;
+  width: 100%;
+}
+
+.hero-wrapper { 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
