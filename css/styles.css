@@ -232,3 +232,35 @@
   font-weight: 700;
   color: rgba(36, 118, 255, 1);
 }
+
+/* video preview */
+
+.video-preview {
+  display: flex;
+  background: #F8FAFE;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto 15px;
+}
+
+.video-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  height: 470px;
+  padding: 10px 30px 10px 30px;
+  gap: 26px;
+}
+
+.video-left h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31.47px;
+  text-align: left;
+}
+
+.video-right img {
+  width: 504px;
+  height: 353px;
+}
