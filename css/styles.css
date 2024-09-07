@@ -159,32 +159,34 @@
   background: #ffffff;
   border-radius: 50%;
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+.google, .google-a {
   width: 60px;
   height: 60px;
-  position: absolute;
+  padding: 10px;
 }
-.icon img {
-  max-width: 40px;
-  max-height: 40px;
-  margin: 10px;
-}
-.icon60 {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-}
-.icon80 {
-  position: absolute;
+.atlassian, .asana, .paypal, .weave, .calendar {
   width: 80px;
   height: 80px;
+  padding: 16px;
 }
-.icon1 { top: 10px; left: 64px; }
-.icon2 { top: 10px; left: 175px; }
-.icon3 { top: 10px; left: 380px; }
-.icon4 { top: 172px; left: 44px; }
-.icon5 { top: 172px; left: 262px; }
-.icon6 { top: 290px; left: 155px; }
-.icon7 { top: 310px; left: 364px; }
+
+.google-s, .google-a-s {
+  width: 40px;
+  height: 40px;
+}
+.atlassian-s, .asana-s, .paypal-s, .weave-s, .calendar-s{
+  width: 48px;
+  height: 48px;
+}
+.google { top: 10px; left: 64px; }
+.atlassian { top: 10px; left: 175px; }
+.asana { top: 10px; left: 380px; }
+.paypal { top: 172px; left: 44px; }
+.weave { top: 172px; left: 262px; }
+.google-a { top: 290px; left: 155px; }
+.calendar { top: 310px; left: 364px; }
 
 /* Benefits Section */
 .benefits .container {
@@ -255,6 +257,7 @@
   background: #01C9A7;
   margin-left: 10px;
   border-radius: 15px;
+  text-align: center;
 }
 /* video preview */
 
