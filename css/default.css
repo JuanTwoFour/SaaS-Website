@@ -18,7 +18,7 @@ a {
 }
 
 section {
-  margin: 100px 0 100px 0;
+  margin: 150px 0;
 }
 
 /* Top section/Header */
@@ -37,7 +37,7 @@ section {
 
 .hero-wrapper { 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -69,5 +69,6 @@ section {
 .hub {
   display: grid;
   grid-template-columns: 425px auto;
+  justify-content: space-evenly;
   gap: 60px;
 }
