@@ -456,19 +456,11 @@
 
 /* hubspot section */
 
-.hub {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-}
-
 .left-panel {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
+position: relative;
+flex-direction: column;
+justify-content: flex-start;}
 
 .right-panel {
   padding: 20px;
@@ -477,27 +469,55 @@
 .executive {
   width: 371px;
   height: 425px;
+  position: absolute;
   left: 81px;
 }
-
 .dots {
   max-width: 200px;
   max-height: 369.28px;
-  border-radius: 5px;
+  position: absolute;
+  top: 111px;
+  left: 28px;
+  z-index: -1;
 }
 
 .hubspot {
-  max-width: 120px;
+  max-width: 100px;
+  height: 33.18px;
   margin-bottom: 20px;
 }
 
-.description p {
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-desc {
+  width: 482px;
+  text-wrap: balance;
+  margin-top: 60px;
+}
+
+.top-desc p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+}
+
+.bottom-desc {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.bottom-desc h5 {
   font-size: 18px;
-  color: #333;
-  margin-bottom: 20px;
+  font-weight: 700;
 }
 
-.description h5 {
-  font-size: 20px;
-  margin: 10px 0 5px;
+.bottom-desc p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #677788;
+  margin-bottom: 20px;
 }

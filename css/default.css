@@ -67,8 +67,7 @@ section {
 /* hubspot section */
 
 .hub {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 425px auto;
+  gap: 60px;
 }
