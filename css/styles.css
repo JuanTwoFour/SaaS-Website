@@ -67,7 +67,6 @@
   font-weight: 600;
   font-family: "Hind", sans-serif;
   margin-right: 40px;
-  line-height: 20px;
   text-wrap: nowrap;
 }
 
@@ -120,7 +119,6 @@
 
 .hero-left h1 {
   font-size: 40px;
-  line-height: 48.41px;
   font-weight: 500;
   width: 334px;
   padding-bottom: 11px;
@@ -266,32 +264,23 @@
   align-items: flex-start;
 }
 
-.item-content {
-  width: 178.5px;
-  height: 270px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.item-content img {
+.item-content img, .plan-info img {
   width: 50px;
   height: 50px;
-  margin: auto 0;
+  margin: 10px 0;
 }
 
 .item-content h5 {
   font-size: 16px;
   font-weight: 700;
-  color: rgba(0, 0, 0, 1)
+  color: rgba(0, 0, 0, 1);
+  padding: 20px 0;
 }
 
 .item-content p {
   font-size: 14px;
   font-weight: 500;
   color: rgba(103, 119, 136, 1);
-  line-height: 24px;
   text-align: left;
   text-wrap: balance;
   margin-top: 10px;
@@ -304,7 +293,7 @@
   color: rgba(36, 118, 255, 1);
 }
 
-.item-content span {
+.item-content span, .cancel span {
   width: 60px;
   height: 23px;
   padding: 4px 4px;
@@ -340,7 +329,6 @@
 .video-left h2 {
   font-size: 26px;
   font-weight: 500;
-  line-height: 31.47px;
   text-align: left;
 }
 
@@ -354,14 +342,12 @@
 .why-front h2 {
   font-size: 26px;
   font-weight: 700;
-  line-height: 31.47px;
   text-align: center;
 }
 
 .why-front p {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
   text-align: center;
   color: #677788;
 }
@@ -418,7 +404,6 @@
 .step p {
   font-size: 16px;
   font-weight: 500;
-  line-height: 19.36px;
   text-align: center;
   margin-top: 20px;
   text-wrap: nowrap;
@@ -456,9 +441,10 @@
 
 .left-panel {
   display: flex;
-position: relative;
-flex-direction: column;
-justify-content: flex-start;}
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 .right-panel {
   padding: 20px;
@@ -470,6 +456,7 @@ justify-content: flex-start;}
   position: absolute;
   left: 81px;
 }
+
 .dots {
   max-width: 200px;
   max-height: 369.28px;
@@ -498,7 +485,6 @@ justify-content: flex-start;}
 .top-desc p {
   font-size: 22px;
   font-weight: 500;
-  line-height: 32px;
 }
 
 .bottom-desc {
@@ -538,4 +524,119 @@ justify-content: flex-start;}
 .brand-list img {
   width: 112.8px;
   height: 30.5px;
+}
+
+/* plans section */
+
+.plan-price h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.plan-price p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #677788;
+}
+
+.plans {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  justify-content: space-evenly;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 452px;
+  box-shadow: 0px 10px 20px 15px #00000026;
+  gap: 50px;
+  border: 1px #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  width: 290px;
+  flex-wrap: wrap;
+}
+
+.price h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.price span {
+  font-size: 20px;
+  font-weight: 510;
+  margin-left: 5px;
+  color: #677788;
+}
+hr {
+  width: 100%;
+  margin: 10px 0;
+}
+.card-header {
+  width: 290px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-header p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #677788;
+  text-wrap: balance;
+}
+
+.main-card > .actions {
+  width: 290px;
+  margin: 0;
+}
+.main-card > .actions p {
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #677788;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.components, .included, .cancel, .moneyback {
+  width: 263px;
+  height: 241px;
+}
+
+.plan-info {
+  width: 223px;
+  height: 201px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.plan-info h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-wrap: nowrap;
+}
+
+.plan-info p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #677788;
 }
