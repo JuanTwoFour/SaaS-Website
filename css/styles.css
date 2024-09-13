@@ -532,6 +532,7 @@
   font-size: 26px;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 5px;
 }
 
 .plan-price p {
@@ -602,7 +603,7 @@ hr {
   margin: 0;
 }
 .main-card > .actions p {
-  margin-top: 15px;
+  padding-top: 25px;
   font-size: 12px;
   font-weight: 500;
   color: #677788;
