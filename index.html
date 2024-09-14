@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +14,7 @@
     rel="stylesheet" />
   <title>SaaS Website</title>
 </head>
+
 <body>
 
   <!--Navbar-->
@@ -23,7 +25,8 @@
         <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
           <span>&#9776;</span>
         </button>
-        <a class="logo" href="index.html"><img src="/saas-project-assets/project_logo/logo.svg"  class="navbar-brand" alt="logo" />
+        <a class="logo" href="index.html"><img src="/saas-project-assets/project_logo/logo.svg" class="navbar-brand"
+            alt="logo" />
         </a>
         <ul class="navbar-nav">
           <li class="nav-link"><a href="#">Home</a></li>
@@ -326,9 +329,8 @@
 
   <!-- Hire Us-->
 
-<section class="hire-us">
-    <div class="container">
-      <div class="hire-us-box">
+  <section class="hire-us">
+      <div class="hireus-box">
         <div class="hire-left">
           <div class="top-hire">
             <h4>Hire Us</h4>
@@ -336,8 +338,7 @@
           </div>
           <hr>
           <p>"I love front! I love the ease of use, I love the fact that i have total creative freedom..."</p>
-        </div>
-        <div class="bottom-hire">
+          <div class="bottom-hire"></div>
           <h5>Charlotte Moore</h5>
           <p>Head of Commercials, Slack</p>
           <div class="hireus-icons">
@@ -346,12 +347,55 @@
             <img src="/saas-project-assets/people/man_one.jpg" alt="man">
           </div>
         </div>
+    
         <div class="hire-right">
-          <form></form>
+          <form>
+            <h2>Fill out the form and we'll be in touch as soon as possible</h2>
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                <div class="input-field">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-field">
+                    <label for="budget">Budget</label>
+                    <select id="budget" name="budget">
+                        <option value="">Select budget</option>
+                        <!-- Add options as needed -->
+                    </select>
+                </div>
+                <div class="input-field">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="">Select country</option>
+                        <!-- Add country options as needed -->
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-field full-width">
+                <label for="project-details">Tell us more about your project, needs, and timeline, please...</label>
+                <textarea id="project-details" name="project-details" rows="4"></textarea>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="marketing-emails" name="marketing-emails">
+                <label for="marketing-emails">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
+            </div>
+
+            <div class="policy-links">
+                <a href="#">View privacy policy</a>
+            </div>
+          </form>
         </div>
       </div>
-    </div>
-</section>
+  </section>
 
   <footer>
     <div class="foot-top"></div>

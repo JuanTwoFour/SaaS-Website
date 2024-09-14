@@ -641,3 +641,8 @@ hr {
   font-weight: 500;
   color: #677788;
 }
+
+.hireus-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
