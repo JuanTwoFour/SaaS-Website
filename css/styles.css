@@ -719,3 +719,96 @@ hr {
   height: 60px;
   border-radius: 50%;
 }
+
+/* form section */
+
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 454.5px;
+  height: 648px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-field input,
+.input-field select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.checkbox-group {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+  transform: scale(1.5);
+  margin-right: 20px;
+}
+
+.checkbox-group p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+
+.policy-links {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.policy-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.policy-links a:hover {
+  text-decoration: underline;
+}
+
+form > .actions {
+  text-align: center;
+}

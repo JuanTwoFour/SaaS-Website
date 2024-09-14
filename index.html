@@ -350,52 +350,58 @@
         </div>
     
         <div class="hire-right">
-          <form>
-            <h2>Fill out the form and we'll be in touch as soon as possible</h2>
-            <div class="input-group">
-                <div class="input-field">
-                    <label for="first-name">First name</label>
-                    <input type="text" id="first-name" name="first-name">
-                </div>
-                <div class="input-field">
-                    <label for="last-name">Last name</label>
-                    <input type="text" id="last-name" name="last-name">
-                </div>
-            </div>
-
-            <div class="input-group">
-                <div class="input-field">
-                    <label for="budget">Budget</label>
-                    <select id="budget" name="budget">
-                        <option value="">Select budget</option>
-                        <!-- Add options as needed -->
-                    </select>
-                </div>
-                <div class="input-field">
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="">Select country</option>
-                        <!-- Add country options as needed -->
-                    </select>
-                </div>
-            </div>
-
-            <div class="input-field full-width">
-                <label for="project-details">Tell us more about your project, needs, and timeline, please...</label>
-                <textarea id="project-details" name="project-details" rows="4"></textarea>
-            </div>
-
-            <div class="checkbox-group">
-                <input type="checkbox" id="marketing-emails" name="marketing-emails">
-                <label for="marketing-emails">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
-            </div>
-
-            <div class="policy-links">
-                <a href="#">View privacy policy</a>
-            </div>
-          </form>
+          <div class="form-container">
+            <form>
+              <h2>Fill out the form and we'll be in touch as soon as possible</h2>
+              <div class="input-group">
+                  <div class="input-field">
+                      <label for="first-name"></label>
+                      <input type="text" id="first-name" name="first-name" placeholder="First name">
+                  </div>
+                  <div class="input-field">
+                      <label for="last-name"></label>
+                      <input type="text" id="last-name" name="last-name" placeholder="Last name">
+                  </div>
+              </div>
+  
+              <div class="input-group">
+                  <div class="input-field">
+                      <label for="budget"></label>
+                      <select id="budget" name="budget">
+                          <option value="">Budget</option>
+                          <!-- Add options as needed -->
+                      </select>
+                  </div>
+                  <div class="input-field">
+                      <label for="country"></label>
+                      <select id="country" name="country">
+                          <option value="">Country</option>
+                          <!-- Add country options as needed -->
+                      </select>
+                  </div>
+              </div>
+  
+              <div class="input-field full-width">
+                  <label for="project-details"></label>
+                  <textarea id="project-details" name="project-details" rows="4" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
+              </div>
+  
+              <div class="checkbox-group">
+                  <input type="checkbox" id="marketing-emails" name="marketing-emails">
+                  <label for="marketing-emails">
+                    <p>Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</p></label>
+              </div>
+  
+              <div class="policy-links">
+                  <a href="#">View privacy policy</a>
+              </div>
+              <div class="actions">
+                <a href="#" class="btn">Get Started</a>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
+          </div>
   </section>
 
   <footer>
