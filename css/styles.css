@@ -645,4 +645,77 @@ hr {
 .hireus-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 708px;
+  align-items: center;
+  justify-items: center;
+}
+
+.hire-left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.top-hire {
+  width: 363px;
+  height: 204px;
+  color: white;
+}
+
+.hire-left h4 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.hire-left p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #677788;
+}
+
+.hire-left hr {
+  width: 50%;
+  margin: 30px 0;
+}
+
+.hire-left h6 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bottom-hire {
+  width: 208px;
+  height: 153px;
+}
+
+.bottom-hire h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.bottom-hire p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.hireus-icons {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.woman_one, .woman_two {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.man_one {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
