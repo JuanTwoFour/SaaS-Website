@@ -12,8 +12,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>SaaS Website</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>SaaS Website</title>
 </head>
 
 <body>
@@ -331,92 +332,97 @@
   <!-- Hire Us-->
 
   <section class="hire-us">
-      <div class="hireus-box">
-        <div class="hire-left">
-          <div class="top-hire">
-            <h4>Hire Us</h4>
-            <p>Whatever your goal - <br>we will get you there</p>
-            <hr>
-            <h6>"I love front! I love the ease of use, I love the fact that i have total creative freedom..."</h6>
+    <div class="hireus-box">
+      <div class="hire-left">
+        <div class="top-hire">
+          <h4>Hire Us</h4>
+          <p>Whatever your goal - <br>we will get you there</p>
+          <hr>
+          <h6>"I love front! I love the ease of use, I love the fact that i have total creative freedom..."</h6>
+        </div>
+        <div class="bottom-hire">
+          <h5>Charlotte Moore</h5>
+          <p>Head of Commercials, Slack</p>
+          <div class="hireus-icons">
+            <img src="/saas-project-assets/people/woman_two.jpg" class="woman_two" alt="woman_two">
+            <img src="/saas-project-assets/people/woman_one.jpg" class="woman_one" alt="woman_one">
+            <img src="/saas-project-assets/people/man_one.jpg" class="man_one" alt="man_one">
           </div>
-          <div class="bottom-hire">
-            <h5>Charlotte Moore</h5>
-            <p>Head of Commercials, Slack</p>
-            <div class="hireus-icons">
-              <img src="/saas-project-assets/people/woman_two.jpg" class="woman_two" alt="woman_two">
-              <img src="/saas-project-assets/people/woman_one.jpg" class="woman_one" alt="woman_one">
-              <img src="/saas-project-assets/people/man_one.jpg" class="man_one" alt="man_one">
+        </div>
+      </div>
+
+      <div class="hire-right">
+        <div class="form-container">
+          <form>
+            <h2>Fill out the form and we'll be in touch as soon as possible</h2>
+            <div class="input-group">
+              <div class="input-field">
+                <label for="first-name"></label>
+                <input type="text" id="first-name" name="first-name" placeholder="First name">
+              </div>
+              <div class="input-field">
+                <label for="last-name"></label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last name">
+              </div>
             </div>
-          </div>
+
+            <div class="input-group">
+              <div class="input-field">
+                <label for="budget"></label>
+                <select id="budget" name="budget">
+                  <option value="">Budget</option>
+                  <!-- Add options as needed -->
+                </select>
+              </div>
+              <div class="input-field">
+                <label for="country"></label>
+                <select id="country" name="country">
+                  <option value="">Country</option>
+                  <!-- Add country options as needed -->
+                </select>
+              </div>
+            </div>
+
+            <div class="input-field full-width">
+              <label for="project-details"></label>
+              <textarea id="project-details" name="project-details" rows="4"
+                placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="marketing-emails" name="marketing-emails">
+              <label for="marketing-emails">
+                <p>Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any
+                  time.</p>
+              </label>
+            </div>
+
+            <div class="policy-links">
+              <a href="#">View privacy policy</a>
+            </div>
+            <div class="actions">
+              <a href="#" class="btn">Get Started</a>
+            </div>
+          </form>
         </div>
-    
-        <div class="hire-right">
-          <div class="form-container">
-            <form>
-              <h2>Fill out the form and we'll be in touch as soon as possible</h2>
-              <div class="input-group">
-                  <div class="input-field">
-                      <label for="first-name"></label>
-                      <input type="text" id="first-name" name="first-name" placeholder="First name">
-                  </div>
-                  <div class="input-field">
-                      <label for="last-name"></label>
-                      <input type="text" id="last-name" name="last-name" placeholder="Last name">
-                  </div>
-              </div>
-  
-              <div class="input-group">
-                  <div class="input-field">
-                      <label for="budget"></label>
-                      <select id="budget" name="budget">
-                          <option value="">Budget</option>
-                          <!-- Add options as needed -->
-                      </select>
-                  </div>
-                  <div class="input-field">
-                      <label for="country"></label>
-                      <select id="country" name="country">
-                          <option value="">Country</option>
-                          <!-- Add country options as needed -->
-                      </select>
-                  </div>
-              </div>
-  
-              <div class="input-field full-width">
-                  <label for="project-details"></label>
-                  <textarea id="project-details" name="project-details" rows="4" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
-              </div>
-  
-              <div class="checkbox-group">
-                  <input type="checkbox" id="marketing-emails" name="marketing-emails">
-                  <label for="marketing-emails">
-                    <p>Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</p></label>
-              </div>
-  
-              <div class="policy-links">
-                  <a href="#">View privacy policy</a>
-              </div>
-              <div class="actions">
-                <a href="#" class="btn">Get Started</a>
-              </div>
-            </form>
-          </div>
-        </div>
-          </div>
+      </div>
+    </div>
   </section>
 
   <footer>
     <div class="container">
       <div class="foot-top">
-        <div class="location">
+        <div class="contact">
           <img src="/saas-project-assets/project_logo/logo.svg" alt="logo">
-          <h5><span class="material-symbols-outlined">
-              near_me
-            </span> 154 Williamson Plaza, Maggieberg</h5>
-          <span class="material-symbols-outlined">
-            call
-          </span><a>+1 (062) 109-9222</a>
+          <div class="location">
+            <span class="material-symbols-outlined">near_me</span>
+            <h5>154 Williamson Plaza, Maggieberg</h5>
+          </div>
+          <div class="phone">
+            <span class="material-symbols-outlined">call</span><a>+1 (062) 109-9222</a>
+          </div>
         </div>
+  
         <div class="information">
           <div class="company">
             <h4>Company</h4>

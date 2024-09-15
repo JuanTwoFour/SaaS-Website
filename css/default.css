@@ -107,6 +107,12 @@ footer a:hover {
   grid-template-columns: 1fr 2fr;
   justify-items: center;
 }
+.location, .phone, .help, .account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
 
 .information {
   display: flex;
@@ -121,10 +127,5 @@ footer a:hover {
 
 footer hr {
   height: 1px;
-}
-
-.help, .account {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  margin: 40px;
 }
