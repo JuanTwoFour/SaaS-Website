@@ -78,3 +78,53 @@ section {
   height: 708px;
   background-color: #20335B;
 }
+
+/* footer */
+
+footer img {
+  width: 100px;
+  height: 29.76px;
+}
+
+footer h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #677788;
+}
+
+footer a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #677788;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+.foot-top {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+}
+
+.information {
+  display: flex;
+  gap: 50px;
+}
+
+.company, .features, .documentation, .resources {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer hr {
+  height: 1px;
+}
+
+.help, .account {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
