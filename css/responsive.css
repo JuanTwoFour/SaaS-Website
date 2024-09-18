@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (width >= 375px) {
   [aria-controls="navbarDropdown"] {
     display: block;
   }
@@ -25,5 +25,9 @@
   [aria-expanded="true"] ~ ul li a {
     margin-right: 20px;
     color: #677788;
+  }
+
+  .navbar {
+    max-width: 375px;
   }
 }

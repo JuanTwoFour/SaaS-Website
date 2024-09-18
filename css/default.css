@@ -44,17 +44,11 @@ section {
   height: 46.1px;
 }
 
-/*
+
 header {
   background-image: url(/saas-project-assets/backgrounds/background-top.svg);
   height: 517px;
   padding: 50px;
-}
-
-.hero-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 90px;
 }
 
 .hero-left {
@@ -64,6 +58,7 @@ header {
   flex-direction: column;
 }
 
+/*
 .benefits-item { 
   display: flex;
   width: 218.5px;

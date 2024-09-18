@@ -72,7 +72,7 @@
   color: rgba(36, 118, 255, 1);
 }
 
-/*
+
 .hero-left h1 {
   font-size: 40px;
   font-weight: 500;
@@ -182,6 +182,7 @@ circle {
   left: 364px;
 }
 
+/*
 .benefits .container {
   display: flex;
   justify-content: space-evenly;
