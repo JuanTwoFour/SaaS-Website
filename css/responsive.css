@@ -16,7 +16,7 @@
       transparent,
       rgba(255, 255, 255, 0.5)
     );
-    width: 100%;
+    width: 768px;
     text-align: right;
     box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
   }
@@ -24,5 +24,9 @@
   [aria-expanded="true"] ~ ul li a {
     margin-right: 20px;
     color: #666;
+  }
+
+  .navbar, .container {
+    max-width: 768px;
   }
 }

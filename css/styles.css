@@ -74,48 +74,7 @@
   color: rgba(36, 118, 255, 1);
 }
 
-/* constants */
-
-.container {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.btn {
-  border: none;
-  background: rgba(36, 118, 255, 1);
-  width: 102px;
-  height: 45px;
-  border-radius: 30px;
-  padding: 15px 25px;
-  color: white;
-  font-size: 12px;
-  font-weight: 700;
-  text-wrap: nowrap;
-}
-
-/* Header Section */
-
-.hero-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* Top Left Header Section */
-
-.hero-left {
-  display: flex;
-  align-self: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-top: -60px;
-}
 
 .hero-left h1 {
   font-size: 40px;
@@ -154,13 +113,10 @@
 
 .hero-right {
   position: relative;
-  width: 477px;
-  height: 406px;
-  margin-top: 80px;
 }
 
 /* icon bubbles */
-.icon {
+circle {
   background: #ffffff;
   border-radius: 50%;
   box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.25);
@@ -826,4 +782,8 @@ form > .actions {
 }
 .btn1:hover {
   color: white;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
 }

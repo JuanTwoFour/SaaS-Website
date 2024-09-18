@@ -16,7 +16,29 @@ a {
 }
 
 section {
-  margin: 150px 0;
+  margin-bottom: 100px;
+}
+
+/* constants */
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  border: none;
+  background: rgba(36, 118, 255, 1);
+  width: 102px;
+  height: 45px;
+  border-radius: 30px;
+  padding: 15px 25px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-wrap: nowrap;
 }
 
 /* Top section/Header */
@@ -26,17 +48,16 @@ section {
   height: 46.1px;
 }
 
-.top-section {
+header {
   background-image: url(/saas-project-assets/backgrounds/background-top.svg);
+  height: 517px;
   padding: 50px;
-  height: 532px;
-  width: 100%;
 }
 
-.hero-wrapper { 
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 90px;
 }
 
 .hero-left {
