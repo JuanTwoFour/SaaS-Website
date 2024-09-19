@@ -60,7 +60,7 @@
 }
 
 .nav-link a {
-  color: rgba(103, 119, 136, 1);
+  color: #677788;
   font-size: 0.8125rem;
   font-weight: 600;
   font-family: "Hind", sans-serif;
@@ -68,6 +68,25 @@
   text-wrap: nowrap;
 }
 
-.nav-link a:hover {
-  color: rgba(36, 118, 255, 1);
+ .nav-link a:hover, .actions .lm a:hover {
+  color: #2476ff;
+}
+
+.hero-left h1 {
+  font-size: 26px;
+  text-wrap: pretty;
+  max-width: 14rem;
+}
+
+.hero-left p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #677788;
+}
+
+.hero-left .lm {
+  color: #677788;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
 }
