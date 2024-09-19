@@ -5,6 +5,11 @@
   font-family: "Inter", sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -19,8 +24,6 @@ section {
   margin-bottom: 100px;
 }
 
-/* constants */
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -29,10 +32,7 @@ section {
 }
 
 .btn {
-  border: none;
   background: rgba(36, 118, 255, 1);
-  width: 102px;
-  height: 45px;
   border-radius: 30px;
   padding: 15px 25px;
   color: white;
@@ -41,33 +41,41 @@ section {
   text-wrap: nowrap;
 }
 
-/* Top section/Header */
-
 .logo {
   width: 154.9px;
   height: 46.1px;
 }
 
-header {
+.top {
   background-image: url(/saas-project-assets/backgrounds/background-top.svg);
-  height: 517px;
-  padding: 50px;
+  max-height: 517px;
 }
-
-.hero-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 90px;
-}
-
-.hero-left {
+.container.hero-section {
   display: flex;
-  align-self: center;
-  flex-wrap: wrap;
-  flex-direction: column;
+  column-gap: 10rem;
+  padding-top: 7rem;
+  padding-left: 25px;
 }
 
-/* Benefits Section */
+.top .actions {
+  padding-top: 15px;
+}
+.container.hero-section {
+  display: flex;
+  column-gap: 4rem;
+  padding-top: 7rem;
+}
+.container.right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.container.right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
 
 .benefits-item { 
   display: flex;
@@ -83,8 +91,6 @@ header {
   align-items: center;
 }
 
-/* hubspot section */
-
 .hub {
   display: grid;
   grid-template-columns: 425px auto;
@@ -97,8 +103,6 @@ header {
   height: 708px;
   background-color: #20335B;
 }
-
-/* footer */
 
 footer img {
   width: 100px;
@@ -144,30 +148,57 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-top: 50px;
+  text-wrap: balance;
+  max-width: 477px;
 }
 
-footer hr {
-  height: 1px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+.top .actions {
+  padding-top: 15px;
 }
 
-.top-bottom {
+.hero-right {
+  display: grid;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: repeat(3, 5rem);
+  row-gap: 3.3rem;
+  column-gap: 1.5rem;
+}
+.asana {
+  grid-column-start: 4;
+  margin-top: 5px;
+}
+.paypal {
+  grid-row-start: 2;
+  margin-left: 10px;
+}
+.weave {
+  grid-column-start: 3;
+}
+.google-a {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+.calendar {
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 3px 13px 0px #00000040;
+  border-radius: 50%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.cr {
-display: flex;
-flex-direction: column;
-text-align: center;
-gap: 20px;
-font-size: 14px;
-font-weight: 500;
-color: rgb(103, 119, 136);
-margin: 50px 0;
+.eighty {
+  width: 80px;
+  height: 80px;
 }
 
 .social {
@@ -176,4 +207,3 @@ margin: 50px 0;
   align-items: center;
   gap: 20px;
 }
-
