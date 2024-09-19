@@ -60,6 +60,17 @@ section {
 .top .actions {
   padding-top: 15px;
 }
+
+.hero-left {
+  display: flex;
+  column-gap: 10rem;
+  padding-top: 7rem;
+  padding-left: 25px;
+}
+
+.top .actions {
+  padding-top: 15px;
+}
 .container.hero-section {
   display: flex;
   column-gap: 4rem;
