@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media screen and (width <= 375px) {
   [aria-controls="navbarDropdown"] {
     display: block;
   }
