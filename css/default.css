@@ -63,8 +63,8 @@ section {
 
 .hero-left {
   display: flex;
-  column-gap: 10rem;
-  padding-top: 7rem;
+  flex-direction: column;
+  padding-top: 1rem;
   padding-left: 25px;
 }
 
@@ -142,6 +142,16 @@ footer a:hover {
   grid-template-columns: 1fr 2fr;
   justify-items: center;
 }
+.top-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cr {
+  text-align: center;
+  padding-top: 2rem;
+}
+
 .location, .phone, .help, .account {
   display: flex;
   flex-direction: row;
