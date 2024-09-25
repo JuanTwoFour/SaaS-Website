@@ -19,7 +19,7 @@
     border-top: 2px solid #E7E7E7;
     margin-top: 20px;
     padding-top: 50px;
-}
+  }
 
   [aria-expanded="true"] ~ ul li a {
     margin-right: 20px;
@@ -122,5 +122,27 @@
     background-color: #eef0f7;
   }
 
-  
+  .timeline {
+    flex-direction: column;
+    margin: 25px 0;
+    align-items: flex-start;
+  }
+
+  .step {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    justify-content: space-evenly;
+    height: 4rem;
+    padding: 0 50px;
+  }
+
+  .step:not(:last-child)::before {
+    content: none;
+  }
+
+  .outer-circle {
+    margin: 0;
+  }
 }
