@@ -215,3 +215,16 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+.item-content span, .cancel span {
+  width: 60px;
+  height: 23px;
+  padding: 4px 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  background: #01C9A7;
+  margin-left: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
