@@ -210,4 +210,37 @@
   .components, .included, .cancel, .moneyback {
     padding: 0;
   }
+
+  .hireus-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hire-left {
+    align-items: center;
+  }
+
+  .top-hire, .hire-right {
+    padding-top: 2rem;
+  }
+
+  .hire-left hr {
+    width: 100%;
+  }
+
+  .p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+
 }

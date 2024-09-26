@@ -548,9 +548,12 @@ hr {
 .hireus-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 708px;
   align-items: center;
   justify-items: center;
+}
+
+.hire-right {
+  margin: 2rem 0;
 }
 
 .hire-left {
@@ -628,8 +631,7 @@ hr {
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
-  width: 454.5px;
-  height: 648px;
+  max-width: 454.5px;
 }
 
 .form-container h2 {
