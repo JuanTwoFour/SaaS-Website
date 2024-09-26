@@ -96,6 +96,7 @@ section {
   grid-template-columns: 425px auto;
   justify-content: space-evenly;
   gap: 60px;
+  margin: 5rem 0;
 }
 
 .hire-us {
