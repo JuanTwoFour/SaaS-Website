@@ -56,7 +56,9 @@ section {
   padding-top: 7rem;
   padding-left: 25px;
 }
-
+.benefits, .why, .brand {
+  padding: 2rem 0;
+}
 .top .actions {
   padding-top: 15px;
 }

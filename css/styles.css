@@ -75,7 +75,8 @@
   font-weight: 700;
 }
 
-.nav-link a:hover, .lm a:hover {
+.nav-link a:hover,
+.lm a:hover {
   color: #2476ff;
 }
 
@@ -110,21 +111,26 @@
   row-gap: 3.3rem;
   column-gap: 1.5rem;
 }
+
 .asana {
   grid-column-start: 4;
   margin-top: 5px;
 }
+
 .paypal {
   grid-row-start: 2;
   margin-left: 10px;
 }
+
 .weave {
   grid-column-start: 3;
 }
+
 .google-a {
   grid-column-start: 2;
   grid-row-start: 3;
 }
+
 .calendar {
   grid-column-start: 4;
   grid-row-start: 3;
@@ -188,7 +194,8 @@
   align-items: flex-start;
 }
 
-.item-content img, .plan-info img {
+.item-content img,
+.plan-info img {
   width: 50px;
   height: 50px;
   margin: 10px 0;
@@ -216,7 +223,8 @@
   font-weight: 700;
 }
 
-.item-content span, .cancel span {
+.item-content span,
+.cancel span {
   width: 60px;
   height: 23px;
   padding: 4px 4px;
@@ -395,9 +403,6 @@
   margin-bottom: 20px;
 }
 
-.brand {
-  padding-top: 5rem;
-}
 .brand h3 {
   text-align: center;
   font-size: 20px;
@@ -471,10 +476,12 @@
   margin-left: 5px;
   color: #677788;
 }
+
 hr {
   width: 100%;
   margin: 10px 0;
 }
+
 .card-header {
   width: 290px;
   height: 194px;
@@ -490,11 +497,12 @@ hr {
   text-wrap: balance;
 }
 
-.main-card > .actions {
+.main-card>.actions {
   width: 290px;
   margin: 0;
 }
-.main-card > .actions p {
+
+.main-card>.actions p {
   padding-top: 25px;
   font-size: 12px;
   font-weight: 500;
@@ -506,7 +514,10 @@ hr {
   grid-template-columns: 1fr 1fr;
 }
 
-.components, .included, .cancel, .moneyback {
+.components,
+.included,
+.cancel,
+.moneyback {
   width: 263px;
   height: 241px;
   padding: 0 1.6rem;
@@ -532,4 +543,192 @@ hr {
   font-size: 14px;
   font-weight: 500;
   color: #677788;
+}
+
+.hireus-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 708px;
+  align-items: center;
+  justify-items: center;
+}
+
+.hire-left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.top-hire {
+  width: 363px;
+  height: 204px;
+  color: white;
+}
+
+.hire-left h4 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.hire-left p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #677788;
+}
+
+.hire-left hr {
+  width: 50%;
+  margin: 30px 0;
+}
+
+.hire-left h6 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bottom-hire {
+  width: 208px;
+  height: 153px;
+}
+
+.bottom-hire h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.bottom-hire p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.hireus-icons {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.woman_one,
+.woman_two {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.man_one {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 454.5px;
+  height: 648px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 48%;
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-field input,
+.input-field select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.checkbox-group {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+  transform: scale(1.5);
+  margin-right: 20px;
+}
+
+.checkbox-group p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+
+.policy-links {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.policy-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.policy-links a:hover {
+  text-decoration: underline;
+}
+
+form>.actions {
+  text-align: center;
+}
+
+.btn1 {
+  background-color: #2576ff;
+  color: white;
+  margin: 5px;
+  font-size: 8px;
+  font-weight: 500;
+  padding: 1px;
+  border-radius: 3px;
+}
+
+.btn1:hover {
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
 }
