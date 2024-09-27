@@ -75,7 +75,8 @@
   font-weight: 700;
 }
 
-.nav-link a:hover, .lm a:hover {
+.nav-link a:hover,
+.lm a:hover {
   color: #2476ff;
 }
 
@@ -111,21 +112,26 @@
   row-gap: 3.3rem;
   column-gap: 1.5rem;
 }
+
 .asana {
   grid-column-start: 4;
   margin-top: 5px;
 }
+
 .paypal {
   grid-row-start: 2;
   margin-left: 10px;
 }
+
 .weave {
   grid-column-start: 3;
 }
+
 .google-a {
   grid-column-start: 2;
   grid-row-start: 3;
 }
+
 .calendar {
   grid-column-start: 4;
   grid-row-start: 3;
@@ -189,7 +195,8 @@
   align-items: flex-start;
 }
 
-.item-content img, .plan-info img {
+.item-content img,
+.plan-info img {
   width: 50px;
   height: 50px;
   margin: 10px 0;
@@ -215,10 +222,10 @@
 .item-content a {
   font-size: 14px;
   font-weight: 700;
-  color: rgba(36, 118, 255, 1);
 }
 
-.item-content span, .cancel span {
+.item-content span,
+.cancel span {
   width: 60px;
   height: 23px;
   padding: 4px 4px;
@@ -233,31 +240,10 @@
 
 .video-preview {
   display: flex;
-  background: #F8FAFE;
   align-items: center;
   justify-content: space-evenly;
   margin: auto 15px;
-}
-
-.video-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 450px;
-  height: 470px;
-  padding: 10px 30px 10px 30px;
-  gap: 26px;
-}
-
-.video-left h2 {
-  font-size: 26px;
-  font-weight: 500;
-  text-align: left;
-}
-
-.video-right img {
-  width: 504px;
-  height: 353px;
+  background-color: #eef0f7;
 }
 
 .why-front h2 {
@@ -340,7 +326,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 414px;
+  height: 25rem;
+  margin: 5rem 0;
 }
 
 .btn2 {
@@ -365,14 +352,14 @@
 }
 
 .executive {
-  width: 371px;
-  height: 425px;
+  min-width: 371px;
+  max-height: 425px;
   position: absolute;
   left: 81px;
 }
 
 .dots {
-  max-width: 200px;
+  min-width: 200px;
   max-height: 369.28px;
   position: absolute;
   top: 111px;
@@ -392,7 +379,7 @@
 }
 
 .top-desc {
-  width: 482px;
+  max-width: 482px;
   margin-top: 60px;
 }
 
@@ -454,6 +441,7 @@
 
 .plans {
   display: flex;
+  gap: 5rem;
   flex-direction: row;
   margin-top: 60px;
   justify-content: space-evenly;
@@ -462,8 +450,8 @@
 .main-card {
   display: flex;
   flex-direction: column;
-  width: 370px;
-  height: 452px;
+  min-width: 328px;
+  height: 415px;
   box-shadow: 0px 10px 20px 15px #00000026;
   gap: 50px;
   border: 1px #FFFFFF;
@@ -489,10 +477,11 @@
   margin-left: 5px;
   color: #677788;
 }
-hr {
+
+.plans hr {
   width: 100%;
-  margin: 10px 0;
 }
+
 .card-header {
   width: 290px;
   height: 194px;
@@ -508,11 +497,12 @@ hr {
   text-wrap: balance;
 }
 
-.main-card > .actions {
+.main-card>.actions {
   width: 290px;
   margin: 0;
 }
-.main-card > .actions p {
+
+.main-card>.actions p {
   padding-top: 25px;
   font-size: 12px;
   font-weight: 500;
@@ -522,16 +512,19 @@ hr {
 .details {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
 }
 
-.components, .included, .cancel, .moneyback {
+.components,
+.included,
+.cancel,
+.moneyback {
   width: 263px;
   height: 241px;
+  padding: 0 1.6rem;
 }
 
 .plan-info {
-  width: 223px;
+  min-width: 223px;
   height: 201px;
   margin: auto;
   display: flex;
@@ -555,9 +548,12 @@ hr {
 .hireus-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 708px;
   align-items: center;
   justify-items: center;
+}
+
+.hire-right {
+  margin: 2rem 0;
 }
 
 .hire-left {
@@ -618,7 +614,8 @@ hr {
   margin-top: 50px;
 }
 
-.woman_one, .woman_two {
+.woman_one,
+.woman_two {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -634,8 +631,7 @@ hr {
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
-  width: 454.5px;
-  height: 648px;
+  max-width: 454.5px;
 }
 
 .form-container h2 {
@@ -717,10 +713,9 @@ textarea {
   text-decoration: underline;
 }
 
-form > .actions {
+form>.actions {
   text-align: center;
 }
-
 
 .btn1 {
   background-color: #2576ff;

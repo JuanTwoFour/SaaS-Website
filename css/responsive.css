@@ -1,4 +1,4 @@
-@media screen and (width <= 375px) {
+@media screen and (width <= 425px) {
   [aria-controls="navbarDropdown"] {
     display: block;
   }
@@ -13,21 +13,262 @@
     position: absolute;
     right: 0;
     top: 50px;
-    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5));
-    min-width: 375px;
-    text-align: right;
+    background-color: white;
+    min-width: 425px;
+    min-height: 32rem;
     justify-items: center;
     border-top: 2px solid #adadad26;
     margin-top: 20px;
     padding-top: 50px;
-}
+  }
 
   [aria-expanded="true"] ~ ul li a {
-    margin-right: 20px;
+    margin-right: 10px;
     color: #677788;
   }
 
   .navbar {
-    max-width: 375px;
+    max-width: 425px;
   }
+
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-left h1 {
+    font-size: 20px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero-left p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .actions .btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .hero-right {
+    grid-template-columns: repeat(3, 4rem);
+    grid-template-rows: repeat(3, 4rem);
+    row-gap: 1.5rem;
+    column-gap: 1rem;
+    justify-content: center;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .eighty {
+    width: 60px;
+    height: 60px;
+  }
+
+  .s {
+    width: 30px;
+    height: 30px;
+  }
+
+  .l {
+    width: 35px;
+    height: 30px;
+  }
+
+  .right {
+    margin: 1rem 0;
+  }
+
+  .benefits {
+    margin-top: 7rem;
+  }
+
+  .benefits p {
+    text-wrap: pretty;
+  }
+
+  .benefits-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .benefits-item {
+    min-width: 328px;
+    max-height: 262px;
+  }
+
+  .item-content {
+    min-width: 288px;
+    max-height: 222px;
+  }
+
+  .video-preview {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .video-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .timeline {
+    flex-direction: column;
+    margin: 25px 0;
+    align-items: flex-start;
+  }
+
+  .step {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    justify-content: space-evenly;
+    height: 4rem;
+    padding: 0 50px;
+  }
+
+  .step:not(:last-child)::before {
+    content: none;
+  }
+
+  .outer-circle {
+    margin: 0;
+  }
+
+  .banner {
+    margin: 0;
+    height: 10rem;
+  }
+
+  .hub {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 15rem);
+    grid-column-gap: 0px;
+    grid-row-gap: 5rem;
+    min-width: 375px;
+  }
+
+  .dots {
+    min-width: 141px;
+    max-height: 262px;
+    top: 4.8rem;
+    left: 3rem;
+  }
+
+  .executive {
+    min-width: 262px;
+    max-height: 300px;
+  }
+
+  .top-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: balance;
+  }
+
+  .bottom-desc {
+    text-align: center;
+    margin: 2rem;
+  }
+
+  .brand-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .plans {
+    flex-direction: column;
+  }
+
+  .details {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+  }
+  .card-header {
+    text-align: center;
+  }
+  .price {
+    justify-content: center;
+  }
+  .components, .included, .cancel, .moneyback {
+    padding: 0;
+  }
+
+  .hireus-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hire-left {
+    align-items: center;
+  }
+
+  .top-hire, .hire-right {
+    padding-top: 2rem;
+  }
+
+  .hire-left hr {
+    width: 100%;
+  }
+
+  .p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  .foot-top{
+    flex-direction: column;
+    margin: 3rem 0;
+  }
+
+  .contaact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;}
+
+  .information {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .company, .features, .documentation, .resources {
+    padding-top: 2rem;
+  }
+
+  .help, .account {
+    justify-content: center;
+  }
+
+  .top-bottom {
+    flex-direction: column;
+    gap: 2rem;}
 }
