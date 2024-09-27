@@ -166,7 +166,7 @@
   position: absolute;
 }
 
-.benefits .container {
+.benefits-list {
   display: flex;
   justify-content: space-evenly;
   margin: 50px 0;
@@ -244,6 +244,12 @@
   justify-content: space-evenly;
   margin: auto 15px;
   background-color: #eef0f7;
+}
+
+.video-left h2 {
+  font-size: 26px;
+  font-weight: 500;
+
 }
 
 .why-front h2 {
@@ -631,7 +637,6 @@
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
-  max-width: 454.5px;
 }
 
 .form-container h2 {

@@ -108,7 +108,7 @@ a {
   gap: 20px;
 }
 .benefits, .why, .brand {
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 .top .actions {
   padding-top: 15px;
@@ -140,10 +140,9 @@ a {
 
 .hub {
   display: grid;
-  grid-template-columns: 425px auto;
-  justify-content: space-evenly;
-  gap: 60px;
-  margin: 5rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding: 5rem 0px;
 }
 
 .hire-us {
@@ -210,6 +209,14 @@ footer hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.social-icon {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
 }
 
 .cr {
