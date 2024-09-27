@@ -477,9 +477,8 @@
   color: #677788;
 }
 
-hr {
+.plans hr {
   width: 100%;
-  margin: 10px 0;
 }
 
 .card-header {
